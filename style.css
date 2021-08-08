@@ -97,7 +97,7 @@ ul{
     overflow: hidden;
     width: 140%;
 }
-.design button{
+.design button,.designs button{
     margin: 2%;
     height: 4vw;
 }
