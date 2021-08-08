@@ -5,6 +5,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: #f9f9f9;
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    line-height: 1;
+}
 .d-flex{
     margin:1% 5%;
 }
@@ -14,13 +20,15 @@ body{
 button{
     width: fit-content;
     font-size: 1vw;
-    height: 3vw;
+    height: auto;
     text-align: center;
     border-radius: 2vw;
     background: transparent linear-gradient(102deg, #E95841 0%, #E94B63 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 10px #E9584129;
     color: #FFFFFF;
     border: transparent;
+    cursor: pointer;
+    padding: 3% 7%;
 }
 p{
     padding: 4% 6% 6% 0% ;
@@ -66,4 +74,47 @@ ul{
     padding: 7% ;
     z-index: 9;
     transition: all 0.3s linear;
+}
+.design{
+    margin-top: 10%;
+    flex-wrap: nowrap;
+    margin-right: -3%;
+    overflow: hidden;
+}
+.design img{
+    margin-right: -4%;
+    overflow: hidden;
+    width: 140%;
+}
+.designs{
+    margin-top: 4%;
+    flex-wrap: nowrap;
+    margin-left: -3%;
+    overflow: hidden;
+}
+.designs img{
+    margin-left: -4%;
+    overflow: hidden;
+    width: 140%;
+}
+.design button{
+    margin: 2%;
+    height: 4vw;
+}
+button.get{
+    color: #E95841;
+    background: #f9f9f9;
+    font-weight: 500;
+}
+h6{
+    color: #E95841;
+    font-weight: bold;
+    text-align: left;
+}
+h1 span{
+    font-weight: 300;
+    font-size: unset;
+}
+.ui{
+    margin:auto 3%;
 }
