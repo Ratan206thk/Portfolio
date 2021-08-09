@@ -120,12 +120,18 @@ h1 span{
 }
 .creation{
     margin: 7% auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
 }
+.row::-webkit-scrollbar {
+    display: none;
+  }
 .creation h6,.creation h1{
     text-align: center;
 }
 .row{
-    margin: 4% auto;
+    margin: 4% auto; 
+    overflow-x: auto;
 }
 .creation h3 b,.creation p{
     margin: 5%;
@@ -134,6 +140,13 @@ h1 span{
     font-size: 1vw;
     height: 10vw;
 }
+.flex-nowrap p{
+    font-size: 0.9vw;
+    height: 25vw;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
 .sub{
     margin: 5% auto auto 4%;
 }
@@ -141,4 +154,15 @@ h1 span{
     margin: 1.5%;
     height: 3.2vw;
     font-size: 0.81vw;
+}
+.creation .navbar-brand{
+    text-align: center;
+    margin-top: 6%;
+}
+div.rating{
+    text-align: center;
+    font-size: 3vw;
+}
+div.rating span{
+    color: #E95841;
 }
