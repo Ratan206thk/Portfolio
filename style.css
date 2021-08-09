@@ -36,7 +36,7 @@ p{
     font-weight: 400;
     font-size: 1.3vw;
 }
-span{
+div.child span{
     font-size: 1.4vw;
 }
 h1{
@@ -106,7 +106,7 @@ button.get{
     background: #f9f9f9;
     font-weight: 500;
 }
-h6{
+h6,.creation span{
     color: #E95841;
     font-weight: bold;
     text-align: left;
@@ -117,4 +117,28 @@ h1 span{
 }
 .ui{
     margin:auto 3%;
+}
+.creation{
+    margin: 7% auto;
+}
+.creation h6,.creation h1{
+    text-align: center;
+}
+.row{
+    margin: 4% auto;
+}
+.creation h3 b,.creation p{
+    margin: 5%;
+}
+.creation p{
+    font-size: 1vw;
+    height: 10vw;
+}
+.sub{
+    margin: 5% auto auto 4%;
+}
+.sub button{
+    margin: 1.5%;
+    height: 3.2vw;
+    font-size: 0.81vw;
 }
