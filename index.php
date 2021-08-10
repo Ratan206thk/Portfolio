@@ -172,7 +172,7 @@
     <div class='creation'>
       <h6>What Client's say's?</h6>
       <h1>Testimonials</h1>
-      <div class="row row-cols-1 row-cols-sm-3 g-4 flex-row flex-nowrap">
+      <div class="row scroll row-cols-1 row-cols-sm-3 g-4 flex-row flex-nowrap">
         <div class="col">
           <div class="card h-100">
             <div class="navbar-brand">
@@ -287,7 +287,14 @@
               <img src="./images/linkedin1.svg" class="d-inline-block align-text-top">
             </div>
             <div class="card-body">
-              <p>"Chintan is the kind of Designer you can only dream to get! His humility combined with his ability to understand abstract requirements or sync with your thoughts is his secret weapon. A brilliant designer who has kept up with the global best practices and speedy execution. At Revidya, we went through at least 10 diff product iterations and 3 diff company formats - all of which Chintan was able to glide through and ace beautifully. Every good freelancer also needs great interpersonal and team work skills another area where Chintan showed exemplary teamwork abilities. We've received feedback from clients that our digital assets look really professional. I would blindly recommend Chintan to anyone who's seeking to build small, medium or large scalable MVPs."</p>
+              <p>"Chintan is the kind of Designer you can only dream to get! His humility combined with his ability to
+                understand abstract requirements or sync with your thoughts is his secret weapon. A brilliant designer
+                who has kept up with the global best practices and speedy execution. At Revidya, we went through at
+                least 10 diff product iterations and 3 diff company formats - all of which Chintan was able to glide
+                through and ace beautifully. Every good freelancer also needs great interpersonal and team work skills
+                another area where Chintan showed exemplary teamwork abilities. We've received feedback from clients
+                that our digital assets look really professional. I would blindly recommend Chintan to anyone who's
+                seeking to build small, medium or large scalable MVPs."</p>
               <div class="rating">
                 <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
                 <h5><b>Sukhesh G</b></h5>
@@ -296,7 +303,111 @@
           </div>
         </div>
       </div>
+      <div style="display: flex;justify-content: center;">
+        <i><img style="transform: rotate(180deg);" src="./images/Icon awesome-arrow-left.svg" alt=""></i>
+        <i><img src="./images/Icon awesome-arrow-left.svg" alt=""></i>
+      </div>
     </div>
+    <div class='port creation'>
+      <h6>Research. Together.</h6>
+      <h1>Portfolio</h1>
+      <div class=" row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4 flex-wrap">
+        <div class="col">
+          <img src="./images/iPhone 12 Clay Right and Left View.png">
+          <h6>Movie Streaming App</h6>
+        </div>
+        <div class="col">
+          <img src="./images/Cycle-portfolio.png">
+          <h6>Bicycle Store</h6>
+        </div>
+        <div class="col">
+          <img src="./images/Food Portfolio.png">
+          <h6>Food Delivery App</h6>
+        </div>
+        <div class="col">
+          <img src="./images/Mockup.png">
+          <h6>Revidya Ed-Tech App</h6>
+        </div>
+        <div class="col">
+          <img src="./images/multi-device-clay-mockup-08.png">
+          <h6>School App</h6>
+        </div>
+        <div class="col">
+          <img src="./images/2nd.png">
+        </div>
+        <div class="col">
+          <img src="./images/Final.png">
+        </div>
+      </div>
+    </div>
+    <div class='d-flex justify-content-around flex-md-row'>
+      <div class='details child'>
+        <h6>Let's create</h6>
+        <h1>Work<span>Together</span></h1>
+        <p>Tell me about your needs and let’s start working together on the best solution for users and
+          business.<br><br>I’m not a freelancer, I will be part of your team.<br><br></p>
+        <h6>My digital print</h6>
+        <h2>Let's<span>Connect</span></h2>
+        <div class="icon">
+          <img src="./images/Dribbble.svg" alt="">
+          <img src="./images/GitHub.svg" alt="">
+          <img src="./images/Instagram.svg" alt="">
+          <img src="./images/LinkedIn.svg" alt="">
+        </div>
+      </div>
+      <div class='port child details'>
+        <form action="#" method="post">
+          <h6>Let's meet. What's your name?</h6>
+          <input type="text" name="name" id="name" size="50" required><br><br>
+          <h6>And your email...</h6>
+          <input type="email" name="email" id="email" size="50" required><br><br>
+          <div class='d-flex justify-content-start'>
+            <div style="margin-right: 16%;">
+              <h6>How can I help you?</h6>
+              <select class="form-select" aria-label="Default select example" required>
+                <option value=""></option>
+                <option value="1">App Design</option>
+                <option value="2">UI/UX Design</option>
+                <option value="3">Others</option>
+              </select>
+            </div>
+            <div>
+              <h6>What's the priority?</h6>
+              <select class="form-select" aria-label="Default select example" required>
+                <option value=""></option>
+                <option value="1">We have time</option>
+                <option value="2">Immediately</option>
+                <option value="3">Within a week</option>
+              </select>
+            </div>
+          </div><br><br>
+          <h6>Tell me more about your project</h6>
+          <textarea name="project" id="project" cols="50" rows="3"
+            placeholder="Budget, extra details, deadlines, special requirements…"></textarea>
+          <br><br>
+          <button type="submit">Let's work</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="flex">
+        <div class="flex">
+          <img src="./images/Group 2536.png" alt="">
+          <div>
+            <h2>Chintan Thakur</h2>
+            <p>UX Designer, Developer & Consultant</p>
+
+            <em>2021 Chintan Thakur. All rights reserved.</em>
+          </div>
+        </div>
+        <div class="icon">
+          <img src="./images/Dribbble.svg" alt="">
+          <img src="./images/GitHub.svg" alt="">
+          <img src="./images/Instagram.svg" alt="">
+          <img src="./images/LinkedIn.svg" alt="">
+        </div>
+      </div>
+    </footer>
   </div>
   <div class="hello box">
     <img src="./img4.png" onclick="closing();">
@@ -308,6 +419,5 @@
   </div>
 </body>
 <script src="./script.js"></script>
-
 
 </html>
