@@ -39,11 +39,14 @@ p{
 div.child span{
     font-size: 1.4vw;
 }
-h1{
+h1,h2{
     text-align: left;
     font-weight: bold;
     color: #181818;
     font-size: 4vw;
+}
+h2{
+    font-size: 3.2vw;
 }
 hr{
     background: linear-gradient(90deg, #e4766f, #df3a50);
@@ -111,7 +114,7 @@ h6,.creation span{
     font-weight: bold;
     text-align: left;
 }
-h1 span{
+h1 span, .details h2 span,.details h1 span{
     font-weight: 300;
     font-size: unset;
 }
@@ -119,7 +122,7 @@ h1 span{
     margin:auto 3%;
 }
 .creation{
-    margin: 7% auto;
+    margin: 7% auto 2% auto ;
     -ms-overflow-style: none; 
     scrollbar-width: none; 
 }
@@ -130,7 +133,7 @@ h1 span{
     text-align: center;
 }
 .row{
-    margin: 4% auto; 
+    margin: 4% auto 1% auto; 
     overflow-x: auto;
 }
 .creation h3 b,.creation p{
@@ -165,4 +168,60 @@ div.rating{
 }
 div.rating span{
     color: #E95841;
+}
+i{
+    border-radius: 50%;
+    padding: 2%;
+    background: transparent linear-gradient(180deg, #E95841 0%, #E94B63 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    margin: auto 1%;
+}
+.port .row{
+    margin: 6% ;
+    justify-content: center;
+}
+.port img{
+    width: 100%;
+}
+.port h6{
+    color: #000000;
+}
+input,select{
+    line-height: 35px;
+    border: transparent;
+    border-radius: 5px;
+}
+.details p{
+    padding: 4% 1% 2% 1%;
+    font-size: 1vw;
+}
+.details{
+    margin:1%;
+}
+form .d-flex{
+    margin: auto;
+}
+.form-select{
+    width: 140%;
+}
+.icon{
+    display: flex;
+    margin: 3% 0%;
+    justify-content: space-between;
+    width: 34%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 140px;    
+}
+.flex .icon img{
+    align-items: center;
+    width: 10%;
+}
+footer{
+    margin:5% -3% -3% -3%;
+    padding: 5% 8%;
+    background-color: white;
 }
