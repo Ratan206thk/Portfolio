@@ -244,3 +244,9 @@ footer{
 em{
     font-size: smaller;
 }
+.hide{
+    display: none!important;
+}
+.active{
+    margin-top: 0%;
+}
