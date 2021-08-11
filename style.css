@@ -58,6 +58,7 @@ hr{
 }
 ul{
     margin: 4%;
+    cursor: pointer;
     background: linear-gradient(90deg, #e4766f, #df3a50);
 }
 .box{
@@ -231,7 +232,7 @@ form .d-flex{
 footer{
     margin:5% -3% -3% -3%;
     padding: 3% 15%;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
 }
 .flex h3{
     font-size: xx-large;
