@@ -19,12 +19,11 @@
   <div class="box">
     <nav class="navbar">
       <div class="container">
-        <a class="navbar-brand">
           <img src="./images/Group 2536.png" alt="" width="90">
-        </a>
-        <a class="navbar-brand" onclick="opening()">
-          <img src="./images/bx-menu-alt-right.svg" alt="" width="30">
-        </a>
+          <div style="display: inline-flex;justify-content: flex-end;width: 40%;">
+            <button style="margin-right: 25%;">Back to home </button>
+            <img src="./images/bx-menu-alt-right.svg" onclick="opening();" alt="" width="30">
+          </div>
       </div>
     </nav>
     <div class='d-flex justify-content-around flex-md-row'>
@@ -410,12 +409,12 @@
     </footer>
   </div>
   <div class="hello box">
-    <img src="./img4.png" onclick="closing();">
-    <ul>About me</ul>
-    <ul>Creation Process</ul>
-    <ul>Portolio</ul>
-    <ul>Testimonials</ul>
-    <ul>Contact me</ul>
+    <img src="./images/close-button.svg" onclick="closing(0);">
+    <ul onclick="closing(1);">About me</ul>
+    <ul onclick="closing(2);">Creation Process</ul>
+    <ul onclick="closing(4);">Portolio</ul>
+    <ul onclick="closing(3);">Testimonials</ul>
+    <ul onclick="closing(5);">Contact me</ul>
   </div>
 </body>
 <script src="./script.js"></script>
