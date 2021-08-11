@@ -8,18 +8,17 @@ function closing() {
     document.querySelector('div.box').style.position = 'absolute';
     document.querySelector('div.hello').style.visibility = "hidden";
 }
-// let arr=document.querySelectorAll('i')
-// arr[0].addEventListener('click',()=>{
-//     let elmnt = document.querySelector("div.scroll");
-//     elmnt.scrollLeft = -420;
-// })
-// arr[1].addEventListener('click',()=>{
-//     let elmnt = document.querySelector("div.scroll");
-//     elmnt.scrollLeft = 420;
-// })
-
-
-// document.queryselector('button').addEventListener('click',()=>{
-//     var elmnt = document.getElementById("myDIV");
-//     elmnt.scrollLeft = 50;
-//   });
+let arr=document.querySelectorAll('i');
+let ran=0;
+let elmnt = document.querySelector("div.scroll");
+arr[0].addEventListener('click',()=>{
+    
+    if(ran>0)
+  {  elmnt.scrollLeft = (--ran)*420;
+    console.log(elmnt.scrollLeft);}
+})
+arr[1].addEventListener('click',()=>{
+    if(ran+3<elmnt.childElementCount)
+    {elmnt.scrollLeft = (++ran)*420;
+        console.log(elmnt.scrollLeft);}
+    })

@@ -394,10 +394,10 @@
         <div class="flex">
           <img src="./images/Group 2536.png" alt="">
           <div>
-            <h2>Chintan Thakur</h2>
+            <h3>Chintan Thakur</h3>
             <p>UX Designer, Developer & Consultant</p>
 
-            <em>2021 Chintan Thakur. All rights reserved.</em>
+            <em>&#169 2021 Chintan Thakur. All rights reserved.</em>
           </div>
         </div>
         <div class="icon">
