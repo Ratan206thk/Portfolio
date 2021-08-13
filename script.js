@@ -2,6 +2,8 @@ function opening() {
     document.querySelector('div.hello').style.opacity = 0.8;
     document.querySelector('div.box').style.position = 'fixed';
     document.querySelector('div.hello').style.visibility = "visible";
+    document.querySelector('div.hello').style.height =window.innerHeight+'px';
+    console.log(window.clientHeight);    
 }
 let button=document.querySelector('button');
 button.classList.add('hide');
@@ -28,13 +30,10 @@ function closing(x) {
     }
 }
 let arr = document.querySelectorAll('i');
-let ran = 0;
 let elmnt = document.querySelector("div.scroll");
 arr[0].addEventListener('click', () => {
-    if (ran > 0)
-        elmnt.scrollLeft = (--ran) * 420;
+    elmnt.scrollBy(-(document.querySelector('div.scroll div.col').clientWidth),0);
 })
 arr[1].addEventListener('click', () => {
-    if (ran + 3 < elmnt.childElementCount)
-        elmnt.scrollLeft = (++ran) * 420;
+    elmnt.scrollBy(document.querySelector('div.scroll div.col').clientWidth,0);
 })

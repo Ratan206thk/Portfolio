@@ -21,12 +21,12 @@
       <div class="container">
           <img src="./images/Group 2536.png" alt="" width="90">
           <div style="display: inline-flex;justify-content: flex-end;width: 40%;">
-            <button style="margin-right: 25%;">Back to home </button>
+            <button onclick="closing(1);" style="margin-right: 25%;">Back to home </button>
             <img src="./images/bx-menu-alt-right.svg" onclick="opening();" alt="" width="30">
           </div>
       </div>
     </nav>
-    <div class='d-flex justify-content-around flex-md-row'>
+    <div class='about d-flex flex-md-row justify-content-around flex-column-reverse '>
       <div class='child'>
         <h1>Chintan Thakur</h1>
         <span>UX/UI Designer & Consultant</span>
@@ -68,7 +68,7 @@
     <div class='creation'>
       <h6>Research. Together.</h6>
       <h1>Creation<span>Process</span></h1>
-      <div class="row row-cols-1 row-cols-sm-3 g-4">
+      <div class="row rows row-cols-1 row-cols-xl-3 row-cols-sm-2 g-4">
         <div class="col">
           <div class="card h-100">
             <div class="card-body">
@@ -171,7 +171,7 @@
     <div class='creation'>
       <h6>What Client's say's?</h6>
       <h1>Testimonials</h1>
-      <div class="row scroll row-cols-1 row-cols-sm-3 g-4 flex-row flex-nowrap">
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-sm-2 g-4 scroll flex-nowrap">
         <div class="col">
           <div class="card h-100">
             <div class="navbar-brand">
@@ -310,7 +310,7 @@
     <div class='port creation'>
       <h6>Research. Together.</h6>
       <h1>Portfolio</h1>
-      <div class=" row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4 flex-wrap">
+      <div class=" row row-cols-2 row-cols-lg-4 row-cols-sm-3 g-4 flex-wrap">
         <div class="col">
           <img src="./images/iPhone 12 Clay Right and Left View.png">
           <h6>Movie Streaming App</h6>
@@ -339,8 +339,8 @@
         </div>
       </div>
     </div>
-    <div class='d-flex justify-content-around flex-md-row'>
-      <div class='details child'>
+    <div class='work row row-cols-1 row-cols-md-2 g-2'>
+      <div class='col details child'>
         <h6>Let's create</h6>
         <h1>Work<span>Together</span></h1>
         <p>Tell me about your needs and let’s start working together on the best solution for users and
@@ -354,7 +354,7 @@
           <img src="./images/LinkedIn.svg" alt="">
         </div>
       </div>
-      <div class='port child details'>
+      <div class='col port child details'>
         <form action="#" method="post">
           <h6>Let's meet. What's your name?</h6>
           <input type="text" name="name" id="name" size="50" required><br><br>
